@@ -99,6 +99,11 @@ h4{
     padding: 0;
 }
 
+.third-section{
+    background-color: #e5e7eb
+    ;
+}
+
 .info img{
     height: 200px;
     border: #3882f6 solid 6px;
@@ -128,6 +133,13 @@ a,
 .title-container p{
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
 }
 
 
