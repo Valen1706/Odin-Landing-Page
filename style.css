@@ -100,9 +100,17 @@ h4{
 }
 
 .third-section{
-    background-color: #e5e7eb
-    ;
+    background-color: #e5e7eb;
+    display: flex;
 }
+
+.testimonial-container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+
 
 .info img{
     height: 200px;
@@ -139,7 +147,16 @@ a,
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1f2937;
+    color: #434f60;
+    margin: 0;
+    overflow: hidden;
+}
+
+#author{
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 36px;
 }
 
 
