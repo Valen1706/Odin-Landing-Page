@@ -110,6 +110,35 @@ h4{
     padding: 100px 200px;
 }
 
+.fourth-section{
+    display: flex;
+    padding: 100px 240px;
+}
+
+.last-section-container{
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 100%;
+    padding: 48px 56px;
+    border-radius: 12px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}
 
 
 .info img{
@@ -143,6 +172,10 @@ a,
     color: #e5e7eb;
 }
 
+.text-container p{
+    margin: 0;
+}
+
 #quote{
     font-size: 36px;
     font-style: italic;
@@ -157,6 +190,23 @@ a,
     font-weight: 700;
     font-size: 24px;
     padding-right: 36px;
+}
+
+#button{
+    border: none;
+    outline: 2px solid white;
+    border-radius: 6px;
+    width: fit-content;
+    align-self: center;
+}
+
+#text{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#additional-text{
+    color: #e5e7eb;
 }
 
 
